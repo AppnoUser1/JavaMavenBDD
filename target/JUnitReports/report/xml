@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.426" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.1" time="3.224">
+<system-out><![CDATA[
+Given user open chrome browser..............................................passed
+And user is on the login page...............................................passed
+When user enters a valid Raghav and 12345...................................passed
+And user clicks on the login button.........................................passed
+Then user is able to login and navigates to homepage........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.2" time="2.044">
+<system-out><![CDATA[
+Given user open chrome browser..............................................passed
+And user is on the login page...............................................passed
+When user enters a valid Ele and 12345......................................passed
+And user clicks on the login button.........................................passed
+Then user is able to login and navigates to homepage........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Google Homepage" name="Google homepage testing" time="1.965">
+<system-out><![CDATA[
+Given I launch google chrome browser........................................passed
+When I open Google homepage.................................................passed
+Then Google homepage is displayed...........................................passed
+And Google Search button is present.........................................passed
+And I type an integer in search field.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
