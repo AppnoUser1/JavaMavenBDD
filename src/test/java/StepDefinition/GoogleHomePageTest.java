@@ -30,7 +30,7 @@ public class GoogleHomePageTest {
 
 	@When("I open Google homepage")
 	public void i_open_google_homepage() {
-		driver.get("https://www.google.com/");
+		driver.get("https://www.google.ca/");
 	}
 
 	@Then("Google homepage is displayed")
