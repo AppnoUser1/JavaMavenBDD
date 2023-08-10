@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="7.426" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.1" time="3.224">
+<testsuite name="Cucumber" time="11.299" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.1" time="6.992">
 <system-out><![CDATA[
 Given user open chrome browser..............................................passed
 And user is on the login page...............................................passed
@@ -9,7 +9,7 @@ And user clicks on the login button.........................................pass
 Then user is able to login and navigates to homepage........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.2" time="2.044">
+<testcase classname="Test Login functionality" name="Check login is successfull with valid credentials - Example #1.2" time="1.939">
 <system-out><![CDATA[
 Given user open chrome browser..............................................passed
 And user is on the login page...............................................passed
@@ -18,7 +18,7 @@ And user clicks on the login button.........................................pass
 Then user is able to login and navigates to homepage........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Google Homepage" name="Google homepage testing" time="1.965">
+<testcase classname="Test Google Homepage" name="Google homepage testing" time="2.176">
 <system-out><![CDATA[
 Given I launch google chrome browser........................................passed
 When I open Google homepage.................................................passed
