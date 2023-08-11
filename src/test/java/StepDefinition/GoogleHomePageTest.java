@@ -42,7 +42,7 @@ public class GoogleHomePageTest {
 
 	@Then("Google Search button is present")
 	public void google_search_button_is_present() {
-		String expectedResult = "Google Search";
+		String expectedResult = "Google Search1";
 		String actualResult = driver.findElement(By.name("btnK")).getAttribute("aria-label");
 		Assert.assertEquals(expectedResult, actualResult);
 
